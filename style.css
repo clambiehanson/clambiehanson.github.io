@@ -14,7 +14,7 @@ margin-right: 200px;
 h1 {
   text-align: center;
   font-family: helvetica;
-  font-size: 48;
+  font-size: 36;
   font-weight: bold;
   margin: 0;
   padding: 0;
@@ -26,6 +26,13 @@ h1b {
   font-size: 48;
   font-weight: bold;
   margin: 0;
+  padding: 0;
+}
+
+h1c {
+  font-family: helvetica;
+  font-size: 36;
+  font-weight: bold;
   padding: 0;
 }
 
@@ -48,8 +55,6 @@ h3 {
   font-family: helvetica;
   font-size: 16;
   font-weight: bold;
-  margin: 0;
-  padding: 0;
 }
 
 p {
@@ -85,11 +90,12 @@ li {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
+  width: 100%;
 }
 
 .masthead{
-    width: 95%;
+    width: 70%;
+    position:relative;
     margin-left: auto;
     margin-right: auto;
 }
@@ -106,9 +112,13 @@ li {
 }
 
 .bottom-left {
-    float: left;
+    position:absolute;
+    bottom:0;
+    left:0;
 }
 
 .bottom-right {
-    float: right;
+    position:absolute;
+    bottom:0;
+    right:0;
 }
