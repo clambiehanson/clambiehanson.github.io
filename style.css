@@ -20,8 +20,24 @@ h1 {
   padding: 0;
 }
 
+h1b {
+  text-align: left;
+  font-family: helvetica;
+  font-size: 48;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
 h2 {
   text-align: center;
+  font-family: helvetica;
+  font-size: 24;
+  font-weight: normal;
+}
+
+h2b {
+  text-align: left;
   font-family: helvetica;
   font-size: 24;
   font-weight: normal;
@@ -41,22 +57,22 @@ p {
   font-family: Georgia;
   font-size: 16;
   font-weight: normal;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 ol {
   font-family: Georgia;
   font-size: 16;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 ul {
   font-family: Georgia;
   font-size: 16;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 li {
