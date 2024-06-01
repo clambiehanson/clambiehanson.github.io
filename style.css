@@ -1,0 +1,110 @@
+body {
+background-color: #FFFFFF;
+font-family : baskerville, didot, times ;
+}
+#content {
+margin-right: 525px;
+}
+#photo {
+float: right;
+width: 325px;
+margin-right: 200px;
+}
+
+h1 {
+  text-align: center;
+  font-family: helvetica;
+  font-size: 36;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  font-family: helvetica;
+  font-size: 24;
+  font-weight: normal;
+}
+
+h3 {
+  text-align: right;
+  font-family: helvetica;
+  font-size: 16;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  text-align: left;
+  font-family: Georgia;
+  font-size: 16;
+  font-weight: normal;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+ol {
+  font-family: Georgia;
+  font-size: 16;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+ul {
+  font-family: Georgia;
+  font-size: 16;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+li {
+  padding-left: 1em;
+  padding-top: 0.5em;
+}
+
+ /* Container holding the image and the text */
+.container {
+  position: relative;
+  color: black;
+  text-align: center;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 5%;
+  left: 8%;
+  text-align: left;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 4%;
+  right: 10%;
+  text-align: right;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
