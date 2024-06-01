@@ -14,7 +14,7 @@ margin-right: 200px;
 h1 {
   text-align: center;
   font-family: helvetica;
-  font-size: 36;
+  font-size: 48;
   font-weight: bold;
   margin: 0;
   padding: 0;
@@ -28,7 +28,7 @@ h2 {
 }
 
 h3 {
-  text-align: center;
+  text-align: right;
   font-family: helvetica;
   font-size: 16;
   font-weight: bold;
@@ -62,4 +62,37 @@ ul {
 li {
   padding-left: 1em;
   padding-top: 0.5em;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+.masthead{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.bottom-left,.bottom-right {
+    display:inline-block;
+    vertical-align:bottom;
+}
+
+.bottom-left {
+    float: left;
+}
+
+.bottom-right {
+    float: right;
 }
