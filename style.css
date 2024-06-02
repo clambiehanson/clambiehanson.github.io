@@ -6,9 +6,8 @@ font-family : baskerville, didot, times ;
 margin-right: 525px;
 }
 #photo {
-float: right;
-width: 325px;
-margin-right: 200px;
+width: 50%;
+margin-right: 0;
 }
 
 h1 {
@@ -25,8 +24,6 @@ h1b {
   font-family: helvetica;
   font-size: 36;
   font-weight: bold;
-  margin: 0;
-  padding: 0;
 }
 
 h1c {
@@ -55,6 +52,14 @@ h3 {
   font-family: helvetica;
   font-size: 16;
   font-weight: bold;
+}
+
+h3a {
+  text-align: right;
+  font-family: helvetica;
+  font-size: 16;
+  font-weight: bold;
+  margin-right: 5%
 }
 
 p {
@@ -121,4 +126,25 @@ li {
     position:absolute;
     bottom:0;
     right:0;
+}
+
+.top-left,.top-right {
+    display:inline-block;
+    vertical-align:top;
+}
+
+.top-left {
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.top-right {
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+.float {
+    float: left;
 }
